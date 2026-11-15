@@ -1,8 +1,8 @@
 """
-Shared functions: city network loading and traffic assignment.
-Input: data/xu2024/<NN_City>/ (Xu et al., 2024, Scientific Data 11, 325;
-https://doi.org/10.6084/m9.figshare.24235696)
-Assignment: origin-based Algorithm B (Dial, 2006, Transportation Research Part B 40, 917-936),
+Shared: city network loading and traffic assignment.
+Input: data/xu2024/<NN_City>/ (Xu et al., 2024）
+
+Assignment: origin-based Algorithm B
 BPR link costs; system optimum via marginal costs; centroids are not used as through nodes.
 """
 import glob
